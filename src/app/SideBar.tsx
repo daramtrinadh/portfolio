@@ -7,7 +7,7 @@ const SideBar = () => {
     return (
         <div className='sidebar-section flex-col items-center'>
             <div className='intro'>
-                <Image href="https://res.cloudinary.com/ds2bmmnmg/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1721555489/Trinadh_pxpa1p.jpg"
+                <Image ref="https://res.cloudinary.com/ds2bmmnmg/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1721555489/Trinadh_pxpa1p.jpg"
                     alt="profile" 
                     className='profile-image'
                  />
