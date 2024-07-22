@@ -51,7 +51,7 @@ const  Home=()=> {
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       className="h-auto w-[70vw]  flex flex-col lg:flex-col overflow-hidden items-center justify-center bg-black w-full gap-4 mx-auto px-8 relative md:flex-row" >
-      <h1 className="font-extrabold">👋 Hello there! I'm Trinadh</h1>     
+      <h1 className="font-extrabold">👋 Hello there! I am Trinadh</h1>     
       <p className="md:text-2xl text-2xl font-medium text-center text-white relative z-20 max-w-2xl mx-auto">A passionate Frontend Developer creating engaging web experiences.</p>
       <p className="text-center">I like to craft solid and scalable frontend products with great user experiences.</p>
       <h1 className="text-4xl mb-7 text-white text-center font-normal text-white-600 dark:text-white-400">
