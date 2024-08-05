@@ -5,6 +5,7 @@
 .sidebar{
   padding:15px;
   position:relative;
+  width:auto;
 
 }
 .children{

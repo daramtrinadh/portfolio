@@ -43,7 +43,7 @@ const projects = [
     link: "https://github.com/",
   }
 ];
-const  Home=()=> {
+const Home=()=> {
   const words = ["beautiful", "modern", "responsive", "interactive"];
   const [hovered, setHovered] = React.useState(false);
   return (
@@ -84,7 +84,6 @@ const  Home=()=> {
           </motion.div>
         )}
       </AnimatePresence>
-      {/* Radial gradient for the cute fade */}
       <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
     </div>
   );
